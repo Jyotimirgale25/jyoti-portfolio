@@ -141,7 +141,7 @@ export default function HeroBeige() {
             <div className="mt-8 flex flex-wrap gap-4">
 
               <a
-                href="#projects"
+                href="#work"
                 className="group px-7 py-3.5 rounded-xl bg-[#3d2b1f] text-[#f5efe8] text-sm font-medium hover:bg-[#5c4a3a] transition-all hover:-translate-y-1 shadow-lg shadow-[#3d2b1f]/20 flex items-center gap-2"
               >
                 View Projects
