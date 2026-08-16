@@ -21,7 +21,7 @@ const projects = [
     technologies: ["React", "Spring Boot", "PostgreSQL", "JWT", "Docker", "OAuth2"],
     icon: Calendar,
     iconStyle: "brown",
-    image: "/screenshot/schedulepro.png",
+    image: "/screenshots/schedulepro.png",
     repo: "https://github.com/Jyotimirgale25/schedulepro",
     live: "https://schedulepro-frontend.onrender.com",
   },
@@ -35,7 +35,7 @@ const projects = [
     technologies: ["React", "Spring Boot", "JWT", "Eureka", "WebSockets", "Redis"],
     icon: MessageCircle,
     iconStyle: "gold",
-    image: "/screenshot/Login.png",
+    image: "/screenshots/Login.png",
     repo: "https://github.com/Jyotimirgale25/chatpro",
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     technologies: ["React", "React Router", "Fetch API", "JWT", "PostgreSQL"],
     icon: ShieldCheck,
     iconStyle: "beige",
-    image: "/screenshot/chatpro.png",
+    image: "/screenshots/chatpro.png",
     repo: "https://github.com/Jyotimirgale25/sawari-frontend",
   },
 ];
