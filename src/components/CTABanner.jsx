@@ -50,7 +50,7 @@ export default function CTABanner() {
             {/* CTA Buttons */}
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="/Jyoti_Mirgale_Resume.pdf"
+                href="/JyotiMirgale_Resume.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 bg-[#f5efe8] text-[#3d2b1f] rounded-xl font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
