@@ -1,96 +1,186 @@
-# Aaliya Manyar — Developer Portfolio
 
-A personal portfolio website showcasing my work as a Java Full-Stack Developer — built to be fast, clean, and easy to navigate.
+# Jyoti Mirgale — Developer Portfolio
 
-**Live Demo:** [aaliya-portfolio-gamma.vercel.app](https://aaliya-portfolio-gamma.vercel.app/)
-**Resume:** [Download PDF](./public/Aaliya_Manyar_Resume.pdf)
+I'm a **Computer Science graduate from JSPM University, Pune**, with a CGPA of **8.77/10**, focused on building modern and user-friendly full-stack web applications.
 
-![Portfolio Preview](./public/screenshots/hero.png)
+My primary technologies include **Java, Spring Boot, Spring Security, React.js, PostgreSQL, and MySQL**.
 
----
-
-## About
-
-I'm a recent Computer Science graduate (CGPA: 8.43) from JSPM University, Pune, focused on building full-stack web applications with React.js, Spring Boot, and MySQL. This portfolio highlights my projects, skills, education, and certifications, and includes a working contact form for reaching out directly.
+This portfolio highlights my academic and personal projects, technical skills, certifications, and experience in developing responsive web applications.
 
 ---
 
-## Features
+## 📸 Screenshots
 
-- Responsive hero section with quick-glance developer stats
-- About section outlining my approach and core strengths
-- Interactive tech stack showcase across languages, frontend, backend, databases, and tools
-- Academic journey timeline (education section)
-- Certifications and credentials section
-- Selected work / project showcase with live links
+### Landing Page
+
+![Landing Page](./my-portfolio/screenshot/landing.png)
+
+### Skills Section
+
+![Skills Section](./my-portfolio/screenshot/skills.png)
+
+### Projects Section
+
+![Projects Section](./my-portfolio/screenshot/project.png)
+
+---
+## ✨ Features
+
+- Responsive and modern portfolio design
+- Developer-focused hero section
+- About Me section
+- Interactive technical skills showcase
+- Education timeline
+- Certifications section
+- Featured projects with GitHub links
+- Project screenshots
 - Functional contact form
-- Clean, modern UI built with Tailwind CSS
+- Dark / Light theme toggle
+- Responsive design for desktop, tablet, and mobile
+- Clean UI built with Tailwind CSS
 
 ---
 
-## Screenshots
+## 🛠️ Tech Stack
 
-| Hero | About |
-|---|---|
-| ![Hero section](./public/screenshots/hero.png) | ![About section](./public/screenshots/about.png) |
+### Frontend
 
-| Education | Selected Work |
-|---|---|
-| ![Education section](./public/screenshots/education.png) | ![Works section](./public/screenshots/works.png) |
-
----
-
-## Tech Stack
-
-**Frontend**
 - React.js
 - Vite
 - Tailwind CSS
-- Lucide React (icons)
+- Lucide React
 
-**Tools**
-- Git & GitHub
+### Backend
+
+- Java
+- Spring Boot
+- Spring Security
+- JWT Authentication
+
+### Databases
+
+- PostgreSQL
+- MySQL
+
+### Tools & Technologies
+
+- Git
+- GitHub
+- Docker
+- Maven
 - VS Code
 
 ---
 
-## Projects Featured
+## 🚀 Featured Projects
 
-| Project | Description | Status | Link |
-|---|---|---|---|
-| **ChatWave** | Real-time messaging app with 1:1 and group chat, topic-based channels, and voice messaging | In Progress | Coming soon |
-| **SAWARI** | Women's safety-focused ride-sharing platform with driver verification and safety features | Available | [View Repo](https://github.com/Aaliya005/sawari-frontend) |
+### 1. SchedulePro
 
----
+**Enterprise Scheduling & Resource Allocation System**
 
-## Getting Started
+A full-stack employee scheduling platform designed to simplify workforce planning and resource management.
 
-Clone the repository and run it locally:
+**Key Features:**
 
-```bash
-git clone https://github.com/Aaliya005/aaliya-portfolio.git
-cd aaliya-portfolio
-npm install
-npm run dev
-```
+- Role-based dashboards
+- Admin, Manager, and Employee workflows
+- Employee management
+- Scheduling and resource allocation
+- JWT-based authentication
+- REST APIs
+- PostgreSQL database
 
-The app will be available at `http://localhost:5173` by default.
+**Technologies:**  
+Java, Spring Boot, Spring Security, JWT, React.js, PostgreSQL, Docker
 
-### Build for production
+🔗 [View Repository](https://github.com/Jyotimirgale25/schedulepro)
 
-```bash
-npm run build
-```
+**Status:** Completed
 
 ---
 
-## Project Structure
+### 2. ChatPro
 
-```
-aaliya-portfolio/
+**Enterprise Communication Platform**
+
+A real-time communication application designed using a **microservices architecture**.
+
+**Key Features:**
+
+- JWT authentication
+- Refresh-token authentication
+- Google OAuth2 login
+- Role-based access control
+- Two-factor authentication
+- Session management with Redis
+- One-to-one messaging
+- Group chat
+- Channel-based communication
+- Typing indicators
+- User presence
+
+**Architecture & Technologies:**
+
+- Java
+- Spring Boot
+- Spring Security
+- Spring Cloud
+- Microservices
+- Eureka Service Discovery
+- Spring Cloud Config
+- API Gateway
+- Redis
+- JWT
+- React.js
+
+🔗 [View Repository](https://github.com/Jyotimirgale25/chatpro)
+
+**Status:** In Progress
+
+---
+
+### 3. SAWARI
+
+**Women's Safety Ride-Sharing Platform — Academic Project**
+
+SAWARI is an **academic frontend project** focused on designing a women-oriented ride-sharing experience with safety-focused features and a clean, accessible user interface.
+
+The project focuses primarily on the **frontend user experience and interface design**.
+
+**Key Features:**
+
+- Women-focused ride-sharing interface
+- Safety-oriented UI
+- SOS feature interface
+- Driver verification interface
+- Responsive design
+- User-friendly navigation
+
+**Technologies:**  
+React.js, JavaScript, Tailwind CSS
+
+🔗 [View Repository](https://github.com/Jyotimirgale25/sawari-frontend)
+
+**Status:** Completed — Academic Frontend Project
+
+---
+
+## 📁 Project Structure
+
+```text
+jyoti-portfolio/
+│
 ├── public/
-│   ├── Aaliya_Manyar_Resume.pdf
-│   └── ...images
+│   ├── screenshot/
+│   │   ├── landing.png
+│   │   ├── project.png
+│   │   └── skills.png
+│   │
+│   ├── Jyoti_Mirgale_Resume.pdf
+│   ├── schedulepro.png
+│   ├── chatpro.png
+│   └── sawari.png
+│
 ├── src/
 │   ├── components/
 │   │   ├── Hero.jsx
@@ -102,25 +192,106 @@ aaliya-portfolio/
 │   │   ├── CTABanner.jsx
 │   │   ├── Contact.jsx
 │   │   ├── Navbar.jsx
-│   │   └── Footer.jsx
+│   │   ├── Footer.jsx
+│   │   └── ThemeToggle.jsx
+│   │
+│   ├── hooks/
+│   │   └── useTheme.js
+│   │
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
+│
 ├── index.html
 ├── tailwind.config.js
-└── package.json
+├── package.json
+└── README.md
+````
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+* Node.js
+* npm
+* Git
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Jyotimirgale25/jyoti-portfolio.git
+```
+
+### Navigate to the Project
+
+```bash
+cd jyoti-portfolio
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start the Development Server
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
 ```
 
 ---
 
-## Connect With Me
+## 📦 Build for Production
 
-- **GitHub:** [github.com/Aaliya005](https://github.com/Aaliya005)
-- **LinkedIn:** [linkedin.com/in/aaliyamanyar](https://www.linkedin.com/in/aaliyamanyar)
-- **Email:** aaliyamanyar05@gmail.com
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
 
 ---
 
-## License
+## 🌐 Deployment
 
-This project is open for reference and learning purposes. Please don't copy the content or design as-is for your own portfolio.
+The portfolio is deployed using **Vercel**.
+
+🔗 **Live Website:**
+[https://jyoti-portfolio.vercel.app/](https://jyoti-portfolio.vercel.app/)
+
+---
+
+## 📬 Contact
+
+I'm open to opportunities as a **Java Full-Stack Developer** and interested in building scalable, secure, and user-friendly applications.
+
+**Jyoti Mirgale**
+
+📍 Pune, Maharashtra
+📧 [jyotimirgale101@gmail.com](mailto:jyotimirgale101@gmail.com)
+💻 [GitHub](https://github.com/Jyotimirgale25)
+
+---
+
+## ⭐ Feedback
+
+If you find this portfolio useful or interesting, feel free to explore the projects and repositories.
+
+**Thank you for visiting!**
+
+```
+```
