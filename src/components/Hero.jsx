@@ -153,7 +153,7 @@ export default function HeroBeige() {
               </a>
 
               <a
-                href="/Jyoti_Mirgale_Resume.pdf"
+                href="/Resume.pdf"
                 download
                 className="px-7 py-3.5 rounded-xl border-2 border-[#d4c5b2] text-[#3d2b1f] text-sm font-medium hover:bg-[#d4c5b2]/30 transition-all flex items-center gap-2"
               >
