@@ -1,30 +1,33 @@
 
-# Jyoti Mirgale — Developer Portfolio
+# Jyoti Mirgale — Java Full-Stack Developer Portfolio
 
-I'm a **Computer Science graduate from JSPM University, Pune**, with a CGPA of **8.77/10**, focused on building modern and user-friendly full-stack web applications.
+A modern and responsive developer portfolio showcasing my skills, projects, education, certifications, and experience in building full-stack web applications.
+I'm a Computer Science graduate and aspiring Java Full-Stack Developer who enjoys turning ideas into practical web applications. I’m curious, detail-oriented, and always looking for opportunities to learn, build, and grow as a developer.
 
-My primary technologies include **Java, Spring Boot, Spring Security, React.js, PostgreSQL, and MySQL**.
+🔗 **Live Portfolio:**  
+https://jyoti-portfolio-eyax.onrender.com
 
-This portfolio highlights my academic and personal projects, technical skills, certifications, and experience in developing responsive web applications.
+📄 **Resume:**  
+[Download Resume](./public/Resume.pdf)
 
 ---
-
-## 📸 Screenshots
+## 📸 Portfolio Screenshots
 
 ### Landing Page
 
-![Landing Page](./my-portfolio/screenshot/landing.png)
+![Landing Page](./public/screenshots/landing.png)
 
 ### Skills Section
 
-![Skills Section](./my-portfolio/screenshot/skills.png)
+![Skills Section](./public/screenshots/skills.png)
 
 ### Projects Section
 
-![Projects Section](./my-portfolio/screenshot/project.png)
+![Projects Section](./public/screenshots/project.png)
 
 ---
-## ✨ Features
+
+## ✨ Portfolio Features
 
 - Responsive and modern portfolio design
 - Developer-focused hero section
@@ -32,12 +35,15 @@ This portfolio highlights my academic and personal projects, technical skills, c
 - Interactive technical skills showcase
 - Education timeline
 - Certifications section
-- Featured projects with GitHub links
+- Featured projects
 - Project screenshots
-- Functional contact form
+- GitHub project links
+- Functional contact section
+- Resume download
 - Dark / Light theme toggle
-- Responsive design for desktop, tablet, and mobile
-- Clean UI built with Tailwind CSS
+- Responsive desktop, tablet, and mobile layouts
+- Smooth navigation between sections
+- Clean UI with Tailwind CSS
 
 ---
 
@@ -46,21 +52,27 @@ This portfolio highlights my academic and personal projects, technical skills, c
 ### Frontend
 
 - React.js
+- JavaScript
 - Vite
 - Tailwind CSS
 - Lucide React
+- HTML5
+- CSS3
 
 ### Backend
 
 - Java
 - Spring Boot
 - Spring Security
+- REST APIs
 - JWT Authentication
+- Microservices
 
 ### Databases
 
 - PostgreSQL
 - MySQL
+- Redis
 
 ### Tools & Technologies
 
@@ -69,129 +81,142 @@ This portfolio highlights my academic and personal projects, technical skills, c
 - Docker
 - Maven
 - VS Code
+- IntelliJ IDEA
 
 ---
 
-## 🚀 Featured Projects
+# 🚀 Featured Projects
 
-### 1. SchedulePro
+## 1. SchedulePro
 
-**Enterprise Scheduling & Resource Allocation System**
+### Enterprise Scheduling & Resource Allocation System
 
-A full-stack employee scheduling platform designed to simplify workforce planning and resource management.
+SchedulePro is a full-stack workforce management application designed to simplify employee scheduling, resource allocation, and workforce coordination.
 
-**Key Features:**
+### Key Features
 
-- Role-based dashboards
+- Role-based authentication
 - Admin, Manager, and Employee workflows
 - Employee management
-- Scheduling and resource allocation
+- Project management
+- Workforce scheduling
+- Resource allocation
 - JWT-based authentication
-- REST APIs
+- RESTful APIs
 - PostgreSQL database
+- Responsive React interface
+- Docker-based deployment environment
 
-**Technologies:**  
-Java, Spring Boot, Spring Security, JWT, React.js, PostgreSQL, Docker
+### Technologies
 
-🔗 [View Repository](https://github.com/Jyotimirgale25/schedulepro)
+**Java | Spring Boot | Spring Security | JWT | React.js | PostgreSQL | Docker | Maven**
+
+🔗 **Repository:**  
+https://github.com/Jyotimirgale25/schedulepro
 
 **Status:** Completed
 
 ---
 
-### 2. ChatPro
+## 2. ChatPro
 
-**Enterprise Communication Platform**
+### Enterprise Communication Platform
 
-A real-time communication application designed using a **microservices architecture**.
+ChatPro is a communication platform designed using a **microservices architecture** to support secure and scalable real-time communication.
 
-**Key Features:**
+### Key Features
 
 - JWT authentication
 - Refresh-token authentication
 - Google OAuth2 login
 - Role-based access control
 - Two-factor authentication
-- Session management with Redis
+- Email/OTP verification
+- Session management using Redis
 - One-to-one messaging
 - Group chat
 - Channel-based communication
 - Typing indicators
 - User presence
+- Secure API Gateway
+- Service discovery
 
-**Architecture & Technologies:**
+### Microservices Architecture
 
-- Java
-- Spring Boot
-- Spring Security
-- Spring Cloud
-- Microservices
-- Eureka Service Discovery
-- Spring Cloud Config
-- API Gateway
-- Redis
-- JWT
-- React.js
+- Discovery Service — Eureka
+- Config Service — Spring Cloud Config
+- API Gateway — Spring Cloud Gateway
+- Common Library — Shared DTOs and utilities
 
-🔗 [View Repository](https://github.com/Jyotimirgale25/chatpro)
+### Technologies
+
+**Java | Spring Boot | Spring Security | Spring Cloud | Microservices | Eureka | Redis | JWT | React.js**
+
+🔗 **Repository:**  
+https://github.com/Jyotimirgale25/chatpro
 
 **Status:** In Progress
 
 ---
 
-### 3. SAWARI
+## 3. SAWARI
 
-**Women's Safety Ride-Sharing Platform — Academic Project**
+### Women's Safety Ride-Sharing Platform — Academic Project
 
 SAWARI is an **academic frontend project** focused on designing a women-oriented ride-sharing experience with safety-focused features and a clean, accessible user interface.
 
-The project focuses primarily on the **frontend user experience and interface design**.
+The project primarily focuses on **frontend development, user experience, responsive design, and safety-oriented interface concepts**.
 
-**Key Features:**
+### Key Features
 
 - Women-focused ride-sharing interface
-- Safety-oriented UI
+- Safety-oriented user interface
 - SOS feature interface
 - Driver verification interface
 - Responsive design
 - User-friendly navigation
+- Clean and accessible UI
+- Mobile-friendly layout
 
-**Technologies:**  
-React.js, JavaScript, Tailwind CSS
+### Technologies
 
-🔗 [View Repository](https://github.com/Jyotimirgale25/sawari-frontend)
+**React.js | JavaScript | Tailwind CSS**
+
+🔗 **Repository:**  
+https://github.com/Jyotimirgale25/sawari-frontend
 
 **Status:** Completed — Academic Frontend Project
 
 ---
 
-## 📁 Project Structure
+# 📂 Project Structure
 
 ```text
 jyoti-portfolio/
 │
 ├── public/
-│   ├── screenshot/
-│   │   ├── landing.png
-│   │   ├── project.png
-│   │   └── skills.png
-│   │
-│   ├── Jyoti_Mirgale_Resume.pdf
-│   ├── schedulepro.png
+│   └── Jyoti_Mirgale_Resume.pdf
+│
+├── screenshot/
+│   ├── landing.png
+│   ├── skills.png
+│   ├── project.png
 │   ├── chatpro.png
+│   ├── schedulepro.png
 │   └── sawari.png
 │
 ├── src/
 │   ├── components/
-│   │   ├── Hero.jsx
+│   │   ├── illustrations/
 │   │   ├── About.jsx
-│   │   ├── TechStack.jsx
-│   │   ├── Education.jsx
 │   │   ├── Certifications.jsx
-│   │   ├── MyWork.jsx
-│   │   ├── CTABanner.jsx
 │   │   ├── Contact.jsx
+│   │   ├── CTABanner.jsx
+│   │   ├── Education.jsx
+│   │   ├── Hero.jsx
+│   │   ├── MyWork.jsx
 │   │   ├── Navbar.jsx
+│   │   ├── TechStack.jsx
 │   │   ├── Footer.jsx
 │   │   └── ThemeToggle.jsx
 │   │
@@ -203,16 +228,16 @@ jyoti-portfolio/
 │   └── index.css
 │
 ├── index.html
-├── tailwind.config.js
 ├── package.json
+├── tailwind.config.js
 └── README.md
 ````
 
 ---
 
-## ⚙️ Getting Started
+# ⚙️ Getting Started
 
-### Prerequisites
+## Prerequisites
 
 Make sure you have the following installed:
 
@@ -220,25 +245,25 @@ Make sure you have the following installed:
 * npm
 * Git
 
-### Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/Jyotimirgale25/jyoti-portfolio.git
 ```
 
-### Navigate to the Project
+## Navigate to the Project
 
 ```bash
 cd jyoti-portfolio
 ```
 
-### Install Dependencies
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Start the Development Server
+## Start Development Server
 
 ```bash
 npm run dev
@@ -252,13 +277,15 @@ http://localhost:5173
 
 ---
 
-## 📦 Build for Production
+# 📦 Build for Production
+
+Create a production build:
 
 ```bash
 npm run build
 ```
 
-To preview the production build locally:
+Preview the production build locally:
 
 ```bash
 npm run preview
@@ -266,24 +293,48 @@ npm run preview
 
 ---
 
-## 🌐 Deployment
+# 🌐 Deployment
 
-The portfolio is deployed using **Vercel**.
+The portfolio is deployed using **Render**.
 
 🔗 **Live Website:**
-[https://jyoti-portfolio.vercel.app/](https://jyoti-portfolio.vercel.app/)
+
+[https://jyoti-portfolio-eyax.onrender.com](https://jyoti-portfolio-eyax.onrender.com)
+
+The production build is generated using Vite.
 
 ---
 
-## 📬 Contact
+# 📄 Resume
 
-I'm open to opportunities as a **Java Full-Stack Developer** and interested in building scalable, secure, and user-friendly applications.
+My resume is available directly from the portfolio:
 
-**Jyoti Mirgale**
+[Download Resume](./public/Jyoti_Mirgale_Resume.pdf)
 
-📍 Pune, Maharashtra
-📧 [jyotimirgale101@gmail.com](mailto:jyotimirgale101@gmail.com)
-💻 [GitHub](https://github.com/Jyotimirgale25)
+---
+
+# 📬 Contact
+
+I'm currently open to opportunities as a **Java Full-Stack Developer** and interested in building scalable, secure, and user-friendly applications.
+
+### Jyoti Mirgale
+
+📍 Pune, Maharashtra, India
+
+📧 **Email:**
+[jyotimirgale101@gmail.com](mailto:jyotimirgale101@gmail.com)
+
+💻 **GitHub:**
+[https://github.com/Jyotimirgale25](https://github.com/Jyotimirgale25)
+
+🌐 **Portfolio:**
+[https://jyoti-portfolio-eyax.onrender.com](https://jyoti-portfolio-eyax.onrender.com)
+
+---
+
+# 🎯 Career Objective
+
+To start my career as a **Java Full-Stack Developer** where I can apply my knowledge of Java, Spring Boot, React.js, databases, and modern development tools while continuously learning and contributing to real-world software projects.
 
 ---
 
@@ -291,7 +342,40 @@ I'm open to opportunities as a **Java Full-Stack Developer** and interested in b
 
 If you find this portfolio useful or interesting, feel free to explore the projects and repositories.
 
-**Thank you for visiting!**
+**Thank you for visiting my portfolio!**
 
+````
+
+### One important correction for your files
+
+From the VS Code screenshot you showed earlier, your screenshots are currently in:
+
+```text
+jyoti-portfolio/
+└── screenshot/
+    ├── landing.png
+    ├── skills.png
+    └── project.png
+````
+
+So I used:
+
+```markdown
+![Landing Page](./screenshot/landing.png)
 ```
+
+**not**:
+
+```markdown
+![Landing Page](./my-portfolio/screenshot/landing.png)
 ```
+
+That old path would be incorrect on GitHub.
+
+Also, because you moved your resume to `public`, this README correctly uses:
+
+```markdown
+[Download Resume](./public/Jyoti_Mirgale_Resume.pdf)
+```
+
+This version is much more suitable for your GitHub repository and consistent with your **current Render deployment and three projects: SchedulePro, ChatPro, and SAWARI**.
